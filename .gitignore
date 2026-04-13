@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyTorch 模型权重（体积过大，不提交）
+results/*.pth
+results/**/*.pth
+
+# 实验日志
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# pytest
+.pytest_cache/
+
+# TensorBoard
+runs/
+
+# AutoDL 临时目录
+/tmp/
+
+# Claude Code 内部文件
+.claude/
+
+# Spec workflow
+.spec-workflow/
+
+# 其他大文件
+diag.py
