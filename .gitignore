@@ -49,5 +49,4 @@ runs/
 # Spec workflow
 .spec-workflow/
 
-# 其他大文件
-diag.py
+
